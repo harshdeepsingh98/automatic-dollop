@@ -115,24 +115,6 @@ export default observer(({ store }) => {
     <NavbarContainer className="bp5-navbar">
       <NavInner>
         <Navbar.Group align={Alignment.LEFT}>
-          <div
-            style={{
-              height: "100%",
-              width: "72px",
-              background: "#f6f7f9",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              transform: "translateX(-15px)",
-            }}
-          >
-            <img
-              src="/wil.png"
-              style={{
-                height: "30px",
-              }}
-            />
-          </div>
           <FileMenu store={store} project={project} />
           <div
             style={{

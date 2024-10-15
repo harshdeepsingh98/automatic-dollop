@@ -146,7 +146,7 @@ export const DownloadButton = observer(({ store }) => {
             <>
               <div style={{ padding: "10px", maxWidth: "180px", opacity: 0.8 }}>
                 HTML export is very experimental. If you have issues with it,
-                please report The Wits Lab.
+                please report.
               </div>
             </>
           )}
